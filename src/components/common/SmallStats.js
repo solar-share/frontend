@@ -120,7 +120,7 @@ class SmallStats extends React.Component {
 
     const percentageClasses = classNames(
       "stats-small__percentage",
-      `stats-small__percentage--${increase ? "increase" : "decrease"}`
+      // `stats-small__percentage--${increase ? "increase" : "decrease"}`
     );
 
     const canvasHeight = variation === "1" ? 120 : 60;
@@ -134,7 +134,7 @@ class SmallStats extends React.Component {
               <h6 className={valueClasses}>{value}</h6>
             </div>
             <div className={innerDataFieldClasses}>
-              <span className={percentageClasses}>{percentage}</span>
+              <span className={percentageClasses} style={{color: '#17c671'}}>{percentage}</span>
             </div>
           </div>
           <canvas

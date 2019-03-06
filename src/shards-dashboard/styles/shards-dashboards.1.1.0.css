@@ -4408,6 +4408,7 @@ a.text-accent:hover, a.text-accent:focus {
     font-weight: 500; }
   .stats-small__percentage {
     position: relative;
+    color: #17c671;
     display: table;
     margin-left: auto;
     padding-left: 0.9375rem; }
