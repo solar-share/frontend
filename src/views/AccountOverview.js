@@ -80,8 +80,8 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Interest Returns",
-      value: "$154.37",
-      percentage: "14.03%",
+      value: "$18",
+      percentage: "22.5%",
       increase: true,
       chartLabels: [null, null, null, null, null, null, null],
       attrs: { md: "6", sm: "6" },
@@ -98,7 +98,7 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Principal Returns",
-      value: "$600",
+      value: "$80",
       percentage: "100% Fulfillment",
       increase: false,
       decrease: true,

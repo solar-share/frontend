@@ -39,26 +39,26 @@ MainFooter.propTypes = {
 
 MainFooter.defaultProps = {
   contained: false,
-  copyright: "Copyright © 2018 DesignRevision",
+  copyright: "",
   menuItems: [
     {
-      title: "Home",
+      title: "SolarShare",
       to: "#"
     },
     {
-      title: "Services",
+      title: "",
       to: "#"
     },
     {
-      title: "About",
+      title: "",
       to: "#"
     },
     {
-      title: "Products",
+      title: "",
       to: "#"
     },
     {
-      title: "Blog",
+      title: "",
       to: "#"
     }
   ]
