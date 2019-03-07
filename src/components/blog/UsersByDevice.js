@@ -60,27 +60,6 @@ class UsersByDevice extends React.Component {
             className="blog-users-by-device m-auto"
           />
         </CardBody>
-        <CardFooter className="border-top">
-          <Row>
-            <Col>
-              <FormSelect
-                size="sm"
-                value="last-week"
-                style={{ maxWidth: "130px" }}
-                onChange={() => {}}
-              >
-                <option value="last-week">Last Week</option>
-                <option value="today">Today</option>
-                <option value="last-month">Last Month</option>
-                <option value="last-year">Last Year</option>
-              </FormSelect>
-            </Col>
-            <Col className="text-right view-report">
-              {/* eslint-disable-next-line */}
-              <a href="#">View full report &rarr;</a>
-            </Col>
-          </Row>
-        </CardFooter>
       </Card>
     );
   }
@@ -111,7 +90,7 @@ UsersByDevice.defaultProps = {
     datasets: [
       {
         hoverBorderColor: "#ffffff",
-        data: [400/1100, 200/1100, 500/1100],
+        data: [400/1000, 200/1000, 500/1000],
         backgroundColor: [
           "rgba(0,123,255,0.9)",
           "rgba(0,123,255,0.5)",

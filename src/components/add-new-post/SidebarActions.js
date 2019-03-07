@@ -23,37 +23,14 @@ const SidebarActions = ({ title }) => (
           <span className="d-flex mb-2">
             <i className="material-icons mr-1">flag</i>
             <strong className="mr-1">Status:</strong> Draft{" "}
-            <a className="ml-auto" href="#">
-              Edit
-            </a>
-          </span>
-          <span className="d-flex mb-2">
-            <i className="material-icons mr-1">visibility</i>
-            <strong className="mr-1">Visibility:</strong>{" "}
-            <strong className="text-success">Public</strong>{" "}
-            <a className="ml-auto" href="#">
-              Edit
-            </a>
-          </span>
-          <span className="d-flex mb-2">
-            <i className="material-icons mr-1">calendar_today</i>
-            <strong className="mr-1">Schedule:</strong> Now{" "}
-            <a className="ml-auto" href="#">
-              Edit
-            </a>
-          </span>
-          <span className="d-flex">
-            <i className="material-icons mr-1">score</i>
-            <strong className="mr-1">Readability:</strong>{" "}
-            <strong className="text-warning">Ok</strong>
           </span>
         </ListGroupItem>
         <ListGroupItem className="d-flex px-3 border-0">
-          <Button outline theme="accent" size="sm">
+          {/*<Button outline theme="accent" size="sm">
             <i className="material-icons">save</i> Save Draft
-          </Button>
+          </Button>*/}
           <Button theme="accent" size="sm" className="ml-auto">
-            <i className="material-icons">file_copy</i> Publish
+            <i className="material-icons">done</i> Invest
           </Button>
         </ListGroupItem>
       </ListGroup>

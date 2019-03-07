@@ -10,15 +10,18 @@ const CustomSelect = () => (
   <div>
     <InputGroup className="mb-3">
       <InputGroupAddon type="prepend">
-        <InputGroupText>Options</InputGroupText>
+        <InputGroupText>Funds</InputGroupText>
       </InputGroupAddon>
       <FormSelect>
         <option>Choose</option>
-        <option>...</option>
+        <option>LA Solar Group</option>
+        <option>Solar Optimum</option>
+        <option>Skytech Solar</option>
       </FormSelect>
     </InputGroup>
 
-    <InputGroup className="mb-3">
+
+    {/*}<InputGroup className="mb-3">
       <FormSelect>
         <option>Choose</option>
         <option>...</option>
@@ -26,7 +29,7 @@ const CustomSelect = () => (
       <InputGroupAddon type="append">
         <InputGroupText>Options</InputGroupText>
       </InputGroupAddon>
-    </InputGroup>
+    </InputGroup>*/}
   </div>
 );
 
