@@ -90,7 +90,7 @@ UsersByDevice.defaultProps = {
     datasets: [
       {
         hoverBorderColor: "#ffffff",
-        data: [400/1000, 200/1000, 500/1000],
+        data: [400, 100, 500],
         backgroundColor: [
           "rgba(0,123,255,0.9)",
           "rgba(0,123,255,0.5)",
@@ -98,7 +98,7 @@ UsersByDevice.defaultProps = {
         ]
       }
     ],
-    labels: ["4.5% / 10yrs", "2.6% / 5yrs", "4.8% / 12yrs"]
+    labels: ["3.2% / 10yrs", "2.8% / 8yrs", "3.5% / 12yrs"]
   }
 };
 

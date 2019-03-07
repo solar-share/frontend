@@ -61,7 +61,7 @@ AccountOverview.defaultProps = {
   smallStats: [
     {
       label: "Total Investments",
-      value: "$1100",
+      value: "$1000",
       percentage: " ",
       increase: false,
       chartLabels: [null, null, null, null, null, null, null],
@@ -80,8 +80,8 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Interest Returns",
-      value: "$18",
-      percentage: "22.5%",
+      value: "$20.87",
+      percentage: "20.52%",
       increase: true,
       chartLabels: [null, null, null, null, null, null, null],
       attrs: { md: "6", sm: "6" },
@@ -98,7 +98,7 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Principal Returns",
-      value: "$80",
+      value: "$101.67",
       percentage: "100% Fulfillment",
       increase: false,
       decrease: true,
@@ -117,7 +117,7 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Projects Supported",
-      value: "7",
+      value: "19",
       percentage: "",
       increase: false,
       decrease: true,
@@ -136,8 +136,8 @@ AccountOverview.defaultProps = {
     },
     {
       label: "Projected Monthy interest",
-      value: "$14.30",
-      percentage: "1.3%",
+      value: "$1.74",
+      percentage: "1.71%",
       increase: false,
       decrease: true,
       chartLabels: [null, null, null, null, null, null, null],

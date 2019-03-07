@@ -25,7 +25,6 @@ const Invest = () => (
         <SidebarCategories />
       </Col>*/}
       <Col>
-        <SidebarActions />
       </Col>
     </Row>
   </Container>
